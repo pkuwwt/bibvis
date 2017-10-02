@@ -1,0 +1,98 @@
+{
+  "name" :"graphic name1",
+  "description":"this is description",
+  "nodes":
+  {
+          "name":"",
+          "children":
+          [
+            {
+              "name":"point name 1",
+              "description":"point description",
+              "color":"100,99,28",
+              "url":"http://"
+            },
+            {
+              "name":"point name 2",
+              "description":"point description",
+              "color":"100,99,28",
+              "url":"http://"
+            },
+            {
+              "name":"point name 3",
+              "description":"point description",
+              "color":"100,99,28",
+              "url":"http://"
+            },
+            {
+              "name":"point name 4",
+              "description":"point description",
+              "color":"100,99,28",
+              "url":"http://"
+            },
+            {
+              "name":"point name 5",
+              "description":"point description",
+              "color":"100,99,28",
+              "url":"http://"
+            },
+            {
+              "name":"point name 6",
+              "description":"point description",
+              "color":"100,99,28",
+              "url":"http://"
+            },
+            {
+              "name":"point name 6-1",
+              "description":"point description",
+              "color":"100,99,28",
+              "url":"http://"
+            },
+            {
+              "name":"point name 6-2",
+              "description":"point description",
+              "color":"100,99,28",
+              "url":"http://"
+            }
+          ]
+  },
+  "edges":
+          [
+            {
+              "name":"edge name",
+              "source":"point name 5",
+              "target":"point name 1",
+              "description":"edge description",
+              "color":"100,99,28",
+              "weigh":"2"
+            },
+            {
+              "name":"edge name 2",
+              "source":"point name 2",
+              "target":"point name 1",
+              "description":"edge description 2",
+              "color":"100,99,28",
+              "weigh":"5"
+            },
+            {
+              "name":"edge name 3",
+              "source":"point name 3",
+              "target":"point name 1",
+              "description":"edge description 2",
+              "color":"100,99,28",
+              "weigh":"6"
+            },
+            {
+              "name":"edge name 4",
+              "source":"point name 4",
+              "target":"point name 1",
+              "description":"edge description 2",
+              "color":"100,99,28",
+              "weigh":"2"
+            }
+
+
+
+          ]
+
+}
