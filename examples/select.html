@@ -1,0 +1,30 @@
+
+<html>
+	<head>
+	<script>
+var examples = ['force','force2'];
+
+var on_change = function() {
+	var select = document.getElementById('examples');
+	var val = select.value;
+	var frame = parent.frames['main'];
+	frame.location = val + '/index.html';
+}
+window.onload = function() {
+	var select = document.getElementById("examples");
+	console.log(examples);
+	for(var k in examples) {
+		var val = examples[k];
+		var option = document.createElement("option");
+		option.value = val;
+		option.text = val;
+		select.appendChild(option);
+	}
+};
+	</script>
+	</head>
+	<body>
+		Examples:&nbsp;<select id="examples" onchange="on_change()"> </select>
+	</body>
+</html>
+
